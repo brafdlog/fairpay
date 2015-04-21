@@ -98,4 +98,9 @@ wp-content/themes/twenty*/
 # ignore node/grunt dependency directories
 node_modules/
 
+############################################################ My changes ###########
+
 wp-content/plugins/
+
+
+!wp-content/css/

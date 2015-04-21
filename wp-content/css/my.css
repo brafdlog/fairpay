@@ -1,0 +1,11 @@
+/* Center the image of the second focus icon */
+.focus .row .focus-box:nth-of-type(2) .pixeden {
+  margin-left: 5px;
+  margin-bottom: 7px;
+}
+
+/* Center the image of the third focus icon */
+.focus .row .focus-box:nth-of-type(3) .pixeden {
+  margin-top: 4px;
+  margin-right: 3px;
+}

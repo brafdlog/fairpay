@@ -4643,3 +4643,5 @@ body.custom-background {
 .zerif-copyright-box {
 	width: 100%;
 }
+
+@import url(/wp-content/css/my.css);
