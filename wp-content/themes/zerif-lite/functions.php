@@ -323,6 +323,9 @@ function zerif_scripts()
 
     }
 
+    /* My custom css */
+    wp_enqueue_style( 'my-custom-css', get_template_directory_uri() . '/css/my.css' );
+
     wp_enqueue_script('jquery');
 
     /* Bootstrap script */
