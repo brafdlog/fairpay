@@ -102,5 +102,4 @@ node_modules/
 
 wp-content/plugins/
 
-
-!wp-content/css/
+wp-config.php
