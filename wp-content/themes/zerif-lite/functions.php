@@ -43,7 +43,7 @@ function zerif_setup()
 
      */
 
-    load_theme_textdomain('zerif-lite', get_template_directory() . '/languages'); 
+    load_theme_textdomain('zerif-lite', get_template_directory() . '/languages');
 
 
     // Add default posts and comments RSS feed links to head.
@@ -144,7 +144,7 @@ function zerif_setup()
         add_image_size('zerif_project_photo', 285, 214, true);
 
         add_image_size('zerif_our_team_photo', 174, 174, true);
-	
+
 		/* woocommerce support */
 		add_theme_support( 'woocommerce' );
 
@@ -248,7 +248,7 @@ add_action('widgets_init', 'zerif_widgets_init');
 
 function zerif_slug_fonts_url() {
     $fonts_url = '';
- 
+
     /* Translators: If there are characters in your language that are not
     * supported by Lora, translate this to 'off'. Do not translate
     * into your own language.
@@ -260,31 +260,31 @@ function zerif_slug_fonts_url() {
     * into your own language.
     */
     $monserrat = _x( 'on', 'Monserrat font: on or off', 'zerif-lite' );
- 
+
     if ( 'off' !== $lato || 'off' !== $monserrat|| 'off' !== $homemade ) {
         $font_families = array();
- 
-        
+
+
         if ( 'off' !== $lato ) {
             $font_families[] = 'Lato:300,400,700,400italic';
         }
- 
+
         if ( 'off' !== $monserrat ) {
             $font_families[] = 'Montserrat:700';
         }
-        
+
         if ( 'off' !== $homemade ) {
             $font_families[] = 'Homemade Apple';
         }
- 
+
         $query_args = array(
             'family' => urlencode( implode( '|', $font_families ) ),
             'subset' => urlencode( 'latin,latin-ext' ),
         );
- 
+
         $fonts_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
     }
- 
+
     return $fonts_url;
 }
 
@@ -318,9 +318,9 @@ function zerif_scripts()
     wp_enqueue_style('zerif_responsive_style', get_template_directory_uri() . '/css/responsive.css', array('zerif_style'), 'v1');
 
     if ( wp_is_mobile() ){
-        
+
         wp_enqueue_style( 'zerif_style_mobile', get_template_directory_uri() . '/css/style-mobile.css', array('zerif_bootstrap_style', 'zerif_style'),'v1' );
-    
+
     }
 
     wp_enqueue_script('jquery');
@@ -353,7 +353,7 @@ function zerif_scripts()
     /* Vegas script */
 
     wp_enqueue_script('zerif_vegas_script', get_template_directory_uri() . '/js/jquery.vegas.min.js', array("jquery"), '20120206', true);
-	
+
 	/* scrollReveal script */
 	if ( !wp_is_mobile() ){
 		wp_enqueue_script( 'zerif_scrollReveal_script', get_template_directory_uri() . '/js/scrollReveal.js', array("jquery"), '20120206', true  );
@@ -391,7 +391,7 @@ function zerif_register_required_plugins()
 {
 
 	$wp_version_nr = get_bloginfo('version');
-	
+
 	if( $wp_version_nr < 3.9 ):
 
 		$plugins = array(
@@ -401,64 +401,64 @@ function zerif_register_required_plugins()
 
 				'name' => 'Widget customizer',
 
-				'slug' => 'widget-customizer', 
+				'slug' => 'widget-customizer',
 
-				'required' => false 
+				'required' => false
 
 			),
 
 			array(
-	 
+
 				'name'      => 'Login customizer',
-	 
+
 				'slug'      => 'login-customizer',
-	 
+
 				'required'  => false,
-	 
+
 			),
 
 			array(
-	 
+
 				'name'      => 'Revive Old Post (Former Tweet Old Post)',
-	 
+
 				'slug'      => 'tweet-old-post',
-	 
+
 				'required'  => false,
-	 
+
 			)
 
 		);
-		
+
 	else:
 
 		$plugins = array(
 
 			array(
-	 
+
 				'name'      => 'Login customizer',
-	 
+
 				'slug'      => 'login-customizer',
-	 
+
 				'required'  => false,
-	 
+
 			),
 
 			array(
-	 
+
 				'name'      => 'Revive Old Post (Former Tweet Old Post)',
-	 
+
 				'slug'      => 'tweet-old-post',
-	 
+
 				'required'  => false,
-	 
+
 			)
 
 		);
 
-	
+
 	endif;
 
-	 
+
 
 
     $config = array(
@@ -793,15 +793,15 @@ class zerif_ourfocus extends WP_Widget
 
 			<?php if( !empty($instance['image_uri']) ): ?>
             <div class="service-icon">
-				
+
 				<?php if( !empty($instance['link']) ): ?>
-				
+
 					<a href="<?php echo $instance['link']; ?>"><i class="pixeden" style="background:url(<?php echo esc_url($instance['image_uri']); ?>) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON--></a>
-				
+
 				<?php else: ?>
-				
+
 					<i class="pixeden" style="background:url(<?php echo esc_url($instance['image_uri']); ?>) no-repeat center;width:100%; height:100%;"></i> <!-- FOCUS ICON-->
-				
+
 				<?php endif; ?>
 
 
@@ -812,14 +812,14 @@ class zerif_ourfocus extends WP_Widget
             <!-- FOCUS HEADING -->
 
 
-			<?php 
+			<?php
 				if( !empty($instance['text']) ):
-				
+
 					echo '<p>';
 						echo apply_filters('widget_title', $instance['text']);
 					echo '</p>';
 				endif;
-			?>	
+			?>
 
         </div>
 
@@ -841,7 +841,7 @@ class zerif_ourfocus extends WP_Widget
         $instance['text'] = strip_tags($new_instance['text']);
 
         $instance['title'] = strip_tags($new_instance['title']);
-		
+
 		$instance['link'] = strip_tags( $new_instance['link'] );
 
         $instance['image_uri'] = strip_tags($new_instance['image_uri']);
@@ -877,8 +877,8 @@ class zerif_ourfocus extends WP_Widget
                    class="widefat"/>
 
         </p>
-		
-	
+
+
 		<p>
 
 			<label for="<?php echo $this->get_field_id('link'); ?>"><?php _e('Link','zerif'); ?></label><br />
@@ -995,7 +995,7 @@ class zerif_testimonial_widget extends WP_Widget
                 <div class="client-info">
 
 					<a class="client-name" target="_blank" <?php if( !empty($instance['link']) ): echo 'href="'.esc_url($instance['link']).'"'; endif; ?>><?php if( !empty($instance['title']) ): echo apply_filters('widget_title', $instance['title'] ); endif; ?></a>
-					
+
 
 					<?php if( !empty($instance['details']) ): ?>
                     <div class="client-company">
@@ -1008,7 +1008,7 @@ class zerif_testimonial_widget extends WP_Widget
                 </div>
 
                 <?php
-				
+
 				if( !empty($instance['image_uri']) ):
 
 					echo '<div class="client-image hidden-xs">';
@@ -1016,7 +1016,7 @@ class zerif_testimonial_widget extends WP_Widget
 					echo '<img src="' . esc_url($instance['image_uri']) . '" alt="">';
 
 					echo '</div>';
-				endif;	
+				endif;
 
                 ?>
 
@@ -1049,7 +1049,7 @@ class zerif_testimonial_widget extends WP_Widget
         $instance['details'] = strip_tags($new_instance['details']);
 
         $instance['image_uri'] = strip_tags($new_instance['image_uri']);
-		
+
 		$instance['link'] = strip_tags( $new_instance['link'] );
 
         return $instance;
@@ -1073,7 +1073,7 @@ class zerif_testimonial_widget extends WP_Widget
                    class="widefat"/>
 
         </p>
-		
+
 		<p>
 
 			<label for="<?php echo $this->get_field_id('link'); ?>"><?php _e('Author link','zerif'); ?></label><br />
@@ -1322,7 +1322,7 @@ class zerif_team_widget extends WP_Widget
             <div class="team-member">
 
 				<?php if( !empty($instance['image_uri']) ): ?>
-				
+
 					<figure class="profile-pic">
 
 
@@ -1330,22 +1330,22 @@ class zerif_team_widget extends WP_Widget
 
 
 					</figure>
-				
+
 				<?php endif; ?>
 
 
                 <div class="member-details">
 
 					<?php if( !empty($instance['name']) ): ?>
-					
+
 						<h5 class="dark-text red-border-bottom"><?php echo apply_filters('widget_title', $instance['name']); ?></h5>
-						
-					<?php endif; ?>	
+
+					<?php endif; ?>
 
 					<?php if( !empty($instance['position']) ): ?>
-					
+
 						<div class="position"><?php echo apply_filters('widget_title', $instance['position']); ?></div>
-				
+
 					<?php endif; ?>
 
                 </div>
@@ -1376,7 +1376,7 @@ class zerif_team_widget extends WP_Widget
                             <li><a href="<?php echo apply_filters('widget_title', $instance['db_link']); ?>"><i
                                         class="fa fa-dribbble"></i></a></li>
                         <?php endif; ?>
-						
+
 						<?php if ( !empty($instance['ln_link']) ): ?>
                             <li><a href="<?php echo apply_filters('widget_title', $instance['ln_link']); ?>"><i
                                         class="fa fa-linkedin"></i></a></li>
@@ -1433,7 +1433,7 @@ class zerif_team_widget extends WP_Widget
         $instance['bh_link'] = strip_tags($new_instance['bh_link']);
 
         $instance['db_link'] = strip_tags($new_instance['db_link']);
-		
+
 		$instance['ln_link'] = strip_tags($new_instance['ln_link']);
 
         $instance['image_uri'] = strip_tags($new_instance['image_uri']);
@@ -1825,7 +1825,7 @@ function recaptcha_scripts() {
 add_filter( 'body_class', 'remove_class_function' );
 function remove_class_function( $classes ) {
 
-    if ( !is_home() ) {   
+    if ( !is_home() ) {
         // index of custom-background
         $key = array_search('custom-background', $classes);
         // remove class
