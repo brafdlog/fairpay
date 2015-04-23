@@ -14,7 +14,7 @@
   		<div class="clientsItemInnerWrapper">
   			<i class="fa fa-copyright"></i>
         <h3>Employers</h3>
-        <p>Lorem ipsum et dolor amet<br> consectetuer diam <br><a href="" class="readMoreLink">More info >></a></p>
+        <p>Lorem ipsum et dolor amet<br> consectetuer diam <br><a href="/employers" class="readMoreLink">More info >></a></p>
   		</div>
     </div>
     
@@ -22,7 +22,7 @@
       <div class="clientsItemInnerWrapper">
         <i class="fa fa-user"></i>
         <h3>Independant Workers</h3>
-        <p>Lorem ipsum et dolor amet<br> consectetuer diam <br><a href="" class="readMoreLink">More info >></a></p>
+        <p>Lorem ipsum et dolor amet<br> consectetuer diam <br><a href="/independent-workers" class="readMoreLink">More info >></a></p>
       </div>
     </div>
     
@@ -30,7 +30,7 @@
       <div class="clientsItemInnerWrapper">
         <i class="fa fa-at"></i>
         <h3>Freelance Websites</h3>
-        <p>Lorem ipsum et dolor amet<br> consectetuer diam <br><a href="" class="readMoreLink">More info >></a></p>
+        <p>Lorem ipsum et dolor amet<br> consectetuer diam <br><a href="/freelancers-websites" class="readMoreLink">More info >></a></p>
       </div>
     </div>
 
