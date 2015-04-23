@@ -330,7 +330,16 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 		include get_template_directory() . "/sections/about_us.php";
 	endif;
-  
+
+  /* TESTIMONIALS */
+
+  $zerif_testimonials_show = get_theme_mod('zerif_testimonials_show');
+
+  if( isset($zerif_testimonials_show) && $zerif_testimonials_show != 1 ):
+
+    include get_template_directory() . "/sections/testimonials.php";
+  endif;
+
 	/* OUR TEAM */
 
 	$zerif_ourteam_show = get_theme_mod('zerif_ourteam_show');
@@ -339,18 +348,6 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 		include get_template_directory() . "/sections/our_team.php";
 	endif;
-
-
-	/* TESTIMONIALS */
-
-	$zerif_testimonials_show = get_theme_mod('zerif_testimonials_show');
-
-	if( isset($zerif_testimonials_show) && $zerif_testimonials_show != 1 ):
-
-		include get_template_directory() . "/sections/testimonials.php";
-	endif;
-
-
 
 
 	/* RIBBON WITH RIGHT SIDE BUTTON */
