@@ -35,5 +35,20 @@
 }
 
 .clientsItem .fa {
-  font-size: 38px;
+  font-size: 50px;
+}
+
+.clientsItem:hover .fa.fa-copyright {
+  transition: all 0.2s ease-in-out;
+  color: #e96656;
+}
+
+.clientsItem:hover .fa.fa-user {
+  transition: all 0.2s ease-in-out;
+  color: #34d293;
+}
+
+.clientsItem:hover .fa.fa-at {
+  transition: all 0.2s ease-in-out;
+  color: #3ab0e2;
 }
