@@ -310,15 +310,13 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 		include get_template_directory() . "/sections/our_focus.php";
 	endif;
 
+  /* OUR CLIENTS SECTION */
+
+  include get_template_directory() . "/sections/our_clients.php";
 
 	/* RIBBON WITH BOTTOM BUTTON */
 
-
 	include get_template_directory() . "/sections/ribbon_with_bottom_button.php";
-
-
-
-
 
 
 
