@@ -2,6 +2,12 @@
 
 <div class="container">
 
+  <div class="row" id="ourClientsHeaderRow">
+    <div class="col-md-8 col-md-offset-2">
+      <h1 class="intro-text">Who are our clients?</h1>
+    </div>
+  </div>
+
   <div class="row">
     
     <div class="col-md-4 col-sm-4 col-xs-12 clientsItem" data-scrollreveal="enter right after 0s over 1s">

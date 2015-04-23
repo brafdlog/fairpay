@@ -24,6 +24,10 @@
 	background: inherit;
 }
 
+#ourClientsHeaderRow {
+  margin-bottom: 40px;
+}
+
 .ourClients {
   padding-top: 100px;
   padding-bottom: 100px;
