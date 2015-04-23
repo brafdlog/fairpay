@@ -42,17 +42,26 @@
   font-size: 50px;
 }
 
-.clientsItem:hover .fa.fa-copyright {
+.clientsItem a {
+  color: inherit;
+  font-weight: bold;
+}
+
+.clientsItem a:hover {
+  text-decoration: underline;
+}
+
+.clientsItemEmployers:hover i, .clientsItemEmployers:hover .readMoreLink {
   transition: all 0.2s ease-in-out;
   color: #e96656;
 }
 
-.clientsItem:hover .fa.fa-user {
+.clientsItemIndependantWorkers:hover i, .clientsItemIndependantWorkers:hover .readMoreLink {
   transition: all 0.2s ease-in-out;
   color: #34d293;
 }
 
-.clientsItem:hover .fa.fa-at {
+.clientsItemFreelance:hover i, .clientsItemFreelance:hover .readMoreLink {
   transition: all 0.2s ease-in-out;
   color: #3ab0e2;
 }
