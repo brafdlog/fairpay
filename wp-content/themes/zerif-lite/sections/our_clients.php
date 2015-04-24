@@ -10,7 +10,7 @@
 
   <div class="row" id="ourClientsContentRow">
     
-    <div class="col-md-4 col-sm-4 col-xs-12 clientsItem" data-scrollreveal="enter right after 0s over 1s">
+    <div class="col-md-3 col-sm-3 col-xs-12 clientsItem" data-scrollreveal="enter right after 0s over 1s">
   		<div class="clientsItemInnerWrapper">
   			<i class="fa fa-globe fa-3x"></i>
         <h3>On-Demand Economy Apps</h3>
@@ -18,7 +18,7 @@
   		</div>
     </div>
     
-    <div class="col-md-4 col-sm-4 col-xs-12 clientsItem" data-scrollreveal="enter right after 0s over 1s">
+    <div class="col-md-3 col-sm-3 col-xs-12 clientsItem" data-scrollreveal="enter right after 0s over 1s">
       <div class="clientsItemInnerWrapper">
         <i class="fa fa-user fa-3x"></i>
         <h3>Independent Workers</h3>
@@ -26,7 +26,7 @@
       </div>
     </div>
     
-    <div class="col-md-4 col-sm-4 col-xs-12 clientsItem" data-scrollreveal="enter right after 0s over 1s">
+    <div class="col-md-3 col-sm-3 col-xs-12 clientsItem" data-scrollreveal="enter right after 0s over 1s">
       <div class="clientsItemInnerWrapper">
         <i class="fa fa-suitcase fa-3x"></i>
         <h3>Companies</h3>
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div class="col-md-4 col-sm-4 col-xs-12 clientsItem" data-scrollreveal="enter right after 0s over 1s">
+    <div class="col-md-3 col-sm-3 col-xs-12 clientsItem" data-scrollreveal="enter right after 0s over 1s">
       <div class="clientsItemInnerWrapper">
         <i class="fa fa-home fa-3x"></i>
         <h3>Private Employers</h3>
