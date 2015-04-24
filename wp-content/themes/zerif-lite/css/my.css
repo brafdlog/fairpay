@@ -39,6 +39,7 @@
   padding: 20px;
   /* When in mobile or tablet we need this to separate between the stacked columns */
   margin-bottom: 20px;
+  min-height: 620px;
 }
 
 .clientsItem a {
