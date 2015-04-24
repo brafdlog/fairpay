@@ -48,17 +48,17 @@
   text-decoration: underline;
 }
 
-.clientsItemEmployers:hover i, .clientsItemEmployers:hover .readMoreLink {
+#ourClientsContentRow div:nth-child(1):hover i, #ourClientsContentRow div:nth-child(1):hover .readMoreLink {
   transition: all 0.2s ease-in-out;
   color: #e96656;
 }
 
-.clientsItemIndependantWorkers:hover i, .clientsItemIndependantWorkers:hover .readMoreLink {
+#ourClientsContentRow div:nth-child(2):hover i, #ourClientsContentRow div:nth-child(2):hover .readMoreLink {
   transition: all 0.2s ease-in-out;
   color: #34d293;
 }
 
-.clientsItemFreelance:hover i, .clientsItemFreelance:hover .readMoreLink {
+#ourClientsContentRow div:nth-child(3):hover i, #ourClientsContentRow div:nth-child(3):hover .readMoreLink {
   transition: all 0.2s ease-in-out;
   color: #3ab0e2;
 }
