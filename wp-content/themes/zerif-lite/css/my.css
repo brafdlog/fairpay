@@ -102,3 +102,16 @@
 ********************Testimonials section******************
 **********************************************************/
 
+.feedback-box .client-info .client-name {
+  font-family: inherit;
+}
+
+.feedback-box .client-image {
+  border-radius: inherit;
+  float: none;
+  margin: 0 auto;
+}
+
+.feedback-box .client-info {
+  display: none;
+}
