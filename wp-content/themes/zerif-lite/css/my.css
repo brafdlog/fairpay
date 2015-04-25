@@ -36,9 +36,6 @@
 
 .clientsItemInnerWrapper {
   padding: 20px 5px;
-  /* When in mobile or tablet we need this to separate between the stacked columns */
-  margin-bottom: 20px;
-  min-height: 620px;
 }
 
 .clientsItem a {
@@ -77,3 +74,11 @@
     background-clip: padding-box;
 }
 
+.equalHeightColumns.row{
+    overflow: hidden; 
+}
+
+.equalHeightColumns [class*="col-"] {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
