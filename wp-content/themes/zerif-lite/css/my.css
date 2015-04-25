@@ -35,8 +35,7 @@
 }
 
 .clientsItemInnerWrapper {
-  background-color: #f6f6f6;
-  padding: 20px;
+  padding: 20px 5px;
   /* When in mobile or tablet we need this to separate between the stacked columns */
   margin-bottom: 20px;
   min-height: 620px;
@@ -70,3 +69,11 @@
   transition: all 0.2s ease-in-out;
   color: #e7ac44;
 }
+
+#ourClientsContentRow [class*="col-"] {
+    background-color: #f6f6f6;
+    /* This is a trick to make a separation between the columns without using margin (which breaks the layout) */
+    border: 10px solid transparent;
+    background-clip: padding-box;
+}
+
