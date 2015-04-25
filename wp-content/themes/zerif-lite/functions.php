@@ -1016,7 +1016,11 @@ class zerif_testimonial_widget extends WP_Widget
 
 					echo '<div class="client-image hidden-xs">';
 
-					echo '<img src="' . esc_url($instance['image_uri']) . '" alt="">';
+                    echo '<a target="_blank" '; if(!empty($instance['link']) ): echo 'href="'.esc_url($instance['link']).'"'; endif; echo '>';
+
+					   echo '<img src="' . esc_url($instance['image_uri']) . '" alt="">';
+
+                    echo '</a>';
 
 					echo '</div>';
 				endif;
