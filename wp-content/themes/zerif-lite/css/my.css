@@ -74,6 +74,13 @@
     background-clip: padding-box;
 }
 
+/* On small screen create separation between stacked columns */
+@media (max-width: 767px) {
+  #ourClientsContentRow [class*="col-"] {
+    background-clip: content-box;
+  }  
+}
+
 .equalHeightColumns.row{
     overflow: hidden; 
 }
