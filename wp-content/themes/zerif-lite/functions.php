@@ -382,6 +382,8 @@ function zerif_scripts()
     }
 
 	add_editor_style('/css/custom-editor-style.css');
+
+    wp_enqueue_script('my_js', get_template_directory_uri() . '/js/my.js');
 }
 
 add_action('wp_enqueue_scripts', 'zerif_scripts');
