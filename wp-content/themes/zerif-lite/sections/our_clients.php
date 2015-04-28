@@ -31,7 +31,7 @@
       <div class="clientsItemInnerWrapper">
         <i class="fa fa-suitcase fa-3x"></i>
         <h3>Businesses</h3>
-        <p><b>Who:</b>Companies that hire contractors or temporary workers. In today's economy, that means most companies.<br><br> <b>The Problem: </b> Not sure how to give your freelancers their employee benefits? Want to do the right thing but not sure how you give someone healthcare if they are only with you for a couple of months?  <br><br><b> How we help: </b> Sign up with us today to give anyone working for you their employee benefits. All you have to do is tell us how many hours they worked for you, and we'll handle the rest. <br><br>Coming Soon! <br><a href="/independent-workers" class="readMoreLink">Be the first to know when we launch this service >></a></p>
+        <p><b>Who:</b> Companies that hire contractors or temporary workers. In today's economy, that means most companies.<br><br> <b>The Problem: </b> Not sure how to give your freelancers their employee benefits? Want to do the right thing but not sure how you give someone healthcare if they are only with you for a couple of months?  <br><br><b> How we help: </b> Sign up with us today to give anyone working for you their employee benefits. All you have to do is tell us how many hours they worked for you, and we'll handle the rest. <br><br>Coming Soon! <br><a href="/independent-workers" class="readMoreLink">Be the first to know when we launch this service >></a></p>
       </div>
     </div>
 
