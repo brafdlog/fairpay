@@ -8,7 +8,7 @@
     </div>
   </div>
 
-  <div class="row equalHeightColumns" id="ourClientsContentRow" data-scrollreveal="enter right after 0s over 1s">
+  <div class="row" id="ourClientsContentRow" data-scrollreveal="enter right after 0s over 1s">
     
     <div class="col-md-3 col-sm-3 col-xs-12 clientsItem">
   		<div class="clientsItemInnerWrapper">

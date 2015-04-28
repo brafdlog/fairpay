@@ -44,6 +44,9 @@
 /*********************************************************
 ********************Our clients section*******************
 **********************************************************/
+#ourClientsContentRow p {
+ display: none; 
+}
 
 #ourClientsHeaderRow {
   margin-bottom: 80px;
@@ -57,6 +60,7 @@
 
 .clientsItemInnerWrapper {
   padding: 20px 5px;
+  min-height: 200px;
 }
 
 .clientsItem a {
@@ -100,6 +104,10 @@
   #ourClientsContentRow [class*="col-"] {
     background-clip: content-box;
   }  
+}
+
+.clientsItem { 
+  cursor: pointer; 
 }
 
 /*********************************************************
