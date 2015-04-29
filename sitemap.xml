@@ -6,6 +6,30 @@
 		<priority>1</priority>
 	</url>
 	<url>
+		<loc>http://www.fair-pay.co/subscribe/</loc>
+		<lastmod>2015-04-26T22:42:04+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.fair-pay.co/freelancers-websites/</loc>
+		<lastmod>2015-04-23T21:25:43+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.fair-pay.co/independent-workers/</loc>
+		<lastmod>2015-04-23T21:25:27+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.fair-pay.co/employers/</loc>
+		<lastmod>2015-04-23T21:23:11+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
 		<loc>http://www.fair-pay.co/retirement-plans/</loc>
 		<lastmod>2015-04-23T10:04:54+00:00</lastmod>
 		<changefreq>monthly</changefreq>
@@ -23,5 +47,5 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
 	</url>
-</urlset><!-- Successfully submitted sitemap to Google on April 23, 2015 (8:29 pm) -->
-<!-- Successfully submitted sitemap to Bing on April 23, 2015 (8:29 pm) -->
+</urlset><!-- Successfully submitted sitemap to Google on April 29, 2015 (9:39 pm) -->
+<!-- Successfully submitted sitemap to Bing on April 29, 2015 (9:39 pm) -->
