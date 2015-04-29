@@ -14,4 +14,10 @@ jQuery(document).ready(function() {
 			clickedItem.find('i.fa-chevron-down').removeClass('fa-chevron-down').addClass('fa-chevron-up');
 		}
 	});
+
+	// This is to prevent the item from folding when clicking on the link
+	jQuery('.readMoreLink').click(function(clickEvent) {
+   		clickEvent.stopPropagation();
+   	});
+   
 });
