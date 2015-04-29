@@ -110,6 +110,10 @@
   cursor: pointer; 
 }
 
+.clientsItem p {
+  padding: 0 5px;
+}
+
 .clientsItem .fa-chevron-down {
   position: absolute;
   bottom: 17px;
