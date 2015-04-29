@@ -14,8 +14,8 @@
   		<div class="clientsItemInnerWrapper">
   			<i class="fa fa-globe fa-3x"></i>
         <h3>On-Demand Economy Apps</h3>
-     <p><b>Who:</b>  Freelance websites, ride-sharing apps, home-services apps, etc. <br><br> <b>The Problem: </b>Service providers working through your on-demand economy apps do not receive any employee benefits. This emerging class of workers doesn't receive any of the benefits their full-time employee counterparts do.<br> <br>
-<b> How we help: </b>Partner with us today to enable your consumers to contribute towards the service provider's healthcare, retirement plan and holidays. Consumers can choose to opt-in, and we'll manage the benefits!<br><br>Coming Soon! <br><a href="/independent-workers" class="readMoreLink">Be the first to know when we launch this service &gt;&gt;</a></p>
+        <p><b>Who:</b>  Freelance websites, ride-sharing apps, home-services apps, etc. <br><br> <b>The Problem: </b>Service providers working through your on-demand economy apps do not receive any employee benefits. This emerging class of workers doesn't receive any of the benefits their full-time employee counterparts do.<br> <br>
+        <b> How we help: </b>Partner with us today to enable your consumers to contribute towards the service provider's healthcare, retirement plan and holidays. Consumers can choose to opt-in, and we'll manage the benefits!<br><br>Coming Soon! <br><a href="/independent-workers" class="readMoreLink">Be the first to know when we launch this service &gt;&gt;</a></p>
   		</div>
     </div>
     
