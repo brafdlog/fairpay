@@ -103,3 +103,5 @@ node_modules/
 wp-content/plugins/
 
 wp-config.php
+sitemap.xml
+sitemap.xml.gz
